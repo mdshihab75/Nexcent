@@ -1,0 +1,432 @@
+/*=========== XS Device ===========*/
+/*@media(max-width:575.98px) {
+html,body {
+   overflow-x: hidden;
+    }
+.navbar-toggler:focus {
+    box-shadow:none;
+}
+.navbar-nav {
+    background-color: #ddd;
+    text-align: center;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+.navbar-nav .nav-link {
+    padding: 0px 0px !important;
+}
+#banner {
+    padding: 20px 0;
+}
+.banner-left h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.banner-left span { 
+    font-size: 50px;  
+    line-height: 60px;
+}
+.banner-right {
+    padding-top: 50px;
+}
+#clients {
+    padding: 30px 0;
+}
+.service-item {
+    padding: 0px 0;
+}
+.service-item img {
+    margin: 0 0px;
+}
+#community {
+    padding: 10px 0;
+}
+.group-item {
+    margin-bottom: 20px;
+}
+.group-item p {
+    padding: 0 0px;
+}
+.head h1 {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 0 0px;
+}
+.head p {
+    padding-top: 20px;
+}
+#feature {
+    padding-top: 20px;
+}
+.feature-right h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+.feature-right p {
+    padding-right: 16px;
+}
+#help {
+    padding: 40px 0;
+}
+.help-left h1 {
+    font-size: 30px;
+    line-height: 40px;
+    padding-right: 20px;
+}
+.help-left span {
+    font-size: 30px;
+    line-height: 40px;
+}
+.help-left p {
+    font-size: 13px;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+.help-right img {
+    width: 30px;
+}
+.help-right h1 {
+    font-size: 18px;
+    line-height: 20px;
+}
+.help-right p {
+    font-size: 10px;
+    line-height: 18px;
+}
+.design-right h1 {
+    font-size: 28px;
+    line-height: 39px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
+.design-right p {
+   padding-right: 30px;
+}
+#design {
+    padding: 40px 0;
+}
+#customar {
+    padding: 0px 0;
+}
+.tasla-right h3 {
+    padding: 20px;
+}
+.tasla-right p {
+    font-size: 14px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.tasla-right .icon {
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+}
+ #portfolio {
+    padding-top: 15px;
+    padding-bottom: 92px;
+}
+.head p {
+    font-size: 14px;
+}
+.port-item {
+    padding: 50px 20px;
+}
+.port-overlay {
+    width: 75%;
+    margin-bottom: 30px;
+}
+.port-overlay h3 {
+    padding: 0px 0px;
+}
+#footer-head {
+    padding: 22px;
+}
+.footer-head h1 {
+    font-size: 30px;
+    line-height: 37px;
+    padding-bottom: 30px;
+}
+#footer-down {
+    margin-top: 20px;
+}
+.footer-item2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+}*/
+/*=========== Small Device ===========*/
+/*@media (min-width:576px) and (max-width:767.98px) {
+    
+.navbar-toggler:focus {
+    box-shadow:none;
+}
+.navbar-nav {
+    background-color: #ddd;
+    text-align: center;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+.navbar-nav .nav-link {
+    padding: 0px 0px !important;
+}
+#banner {
+    padding: 20px 0;
+}
+.banner-left h1 {
+    font-size: 50px;
+    line-height: 60px;
+}
+.banner-left span { 
+    font-size: 50px;  
+    line-height: 60px;
+}
+.banner-right {
+    padding-top: 50px;
+}
+.head h1 {
+    padding: 0 0px;
+}
+#community {
+    padding: 0px 0;
+}
+.service-item img {
+    margin: 0 0px;
+}
+#group {
+    padding: 5px 0;
+}
+.group-item {
+    margin-bottom: 20px;
+}
+.head p {
+    padding-top: 20px;
+}
+#feature {
+    padding: 50px 0;
+}
+.feature-right h1 {
+    font-size: 25px;
+    line-height: 30px;
+    padding-right: 35px;
+    padding-top: 20px;
+}
+.feature-right p {
+    padding-right: 0px;
+}
+#group {
+    padding: 5px 0;
+}
+.head p {
+    padding-top: 20px;
+}
+#help {
+    padding: 30px 0;
+}
+.help-left h1 {
+    padding-right: 0px;
+}
+.help-left p {
+    margin-bottom: 30px;
+}
+.design-right h1 {
+    margin-top: 40px;
+}
+.design-right p {
+    padding-right: 20px;
+}
+.tasla-right p {
+    padding-right: 0px;
+    margin-top: 30px;
+}
+.tasla-right h2 {
+    padding-bottom: 0px;
+}
+.tasla-right .icon {
+    gap: 15px;
+}
+#portfolio {
+    padding-bottom: 90px;
+}
+.port-item {
+    padding: 50px 20px;
+}
+.port-overlay {
+    width: 70%;
+    padding: 35px 0;
+    margin-bottom: 30px;
+}
+.port-overlay h3 {
+    padding: 0px;
+}
+#footer-head {
+    padding: 22px;
+}
+.footer-head h1 {
+    font-size: 28px;
+    line-height: 35px;
+    padding-bottom: 30px;
+}
+.footer-item h5 {
+    padding-bottom: 20px;
+}
+.footer-item2 {
+    margin-top: 20px;
+}*/
+
+/*=========== Medium Device ===========*/
+/*@media (min-width:768px) and (max-width:991.98px) {
+html,body {
+    overflow-x: hidden;
+    }
+.navbar {
+    padding: 20px 0;
+}
+.navbar-nav .nav-link {
+    padding: 3px 5px !important;
+    font-size: 12px;
+    line-height: 14px;
+}
+.btn a {
+    padding: 10px 20px;
+    margin-left: 0;
+}
+#banner {
+    padding: 40px 0;
+}
+.banner-right img {
+    text-align: center;
+}
+#community {
+    padding: 0px 0;
+}
+.head h1 {
+    padding: 0 85px;
+}
+.group-item h2 {
+    padding: 0 0px;
+}
+.group-item p {
+    padding: 0 0px;
+}
+#feature {
+    padding: 50px 0;
+}
+.feature-right h1 {
+    padding-right: 0px;
+    padding-top: 50px;
+}
+#help {
+    padding: 30px 0;
+}
+.help-left h1 {
+    padding-right: 0px;
+}
+.help-left p {
+    padding-bottom: 20px;
+}
+.design-right h1 {
+    padding-right: 90px;
+    padding-top: 50px;
+}
+.design-right p {
+    padding-right: 50px;
+}
+.tasla-right p {
+    padding-right: 30px;
+    padding-top: 25px;
+}
+#portfolio {
+    padding-bottom: 70px;
+}
+.port-item {
+    padding: 50px 20px;
+}
+.port-overlay {
+    width: 75%;
+    margin-bottom: 30px;
+}
+.port-overlay h3 {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0 0px;
+}
+.port-overlay a {
+    font-size: 12px;
+}
+.footer-item h5 {
+    padding-bottom: 15px;
+}
+.footer-menu input {
+    padding-right: 10px;
+}
+.arrow i {
+    right: 0px;
+}
+}*/
+/*=========== Large Device ===========*/
+/*@media (min-width: 992px) and (max-width: 1199.98px) {
+.navbar-nav .nav-link {
+    padding: 20px 20px !important;
+    font-size: 12px;
+    line-height: 14px;
+}
+.btn a {
+    padding: 10px 20px;
+    margin-left: 0;
+}
+#community {
+    padding: 0px 0;
+}
+.group-item h2 {
+    padding: 0 15px;
+}
+.group-item p {
+    padding: 0 0px;
+}
+.help-left h1 {
+    padding-right: 50px;
+}
+.design-right p {
+    padding-right: 0px;
+}
+.tasla-right p {
+    font-size: 14px;
+    line-height: 18px;
+    padding-right: 0px;
+}
+.head h1 {
+    padding: 0 0px;
+    margin-bottom: 20px;
+}
+#portfolio {
+    padding-bottom: 70px;
+}
+.port-item {
+    padding: 50px 20px;
+}
+.port-overlay {
+    width: 75%;
+    margin-bottom: 30px;
+}
+.port-overlay h3 {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 15px 20px;
+}
+.port-overlay a {
+    font-size: 14px;
+}
+.footer-head h1 {
+    font-size: 45px;
+    line-height: 60px;
+}
+.footer-menu input {
+    padding-right: 24px;
+}
+.arrow i {
+    right: 0px;
+}
+}*/

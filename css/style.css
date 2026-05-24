@@ -1,0 +1,449 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+ul,ol {
+    list-style-type: none;
+}
+/*============= Navbar css =============*/
+.navbar {
+    background-color: #F5F7FA;
+    padding: 10px 0;
+}
+.navbar-nav .nav-link {
+    color: #18191F;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Inter", sans-serif;
+    padding: 30px 25px !important;
+}
+.btn a {
+   font-family: "Inter", sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   line-height: 20px;
+   color: #4CAF4F;
+   padding: 10px 20px;
+   background-color: #FFFFFF;
+   border-radius: 6px;
+   margin-left: 10px;
+}
+.btn a:hover {
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+}
+/*============= Banner css =============*/
+#banner {
+    background-color: #F5F7FA;
+    padding: 96px 0 0 0;
+}
+.carousel-indicators button {
+    background-color: #4CAF4F !important;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
+.banner-left h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #4D4D4D;
+    padding-bottom: 16px;
+}
+.banner-left span {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #4CAF4F;
+}
+.banner-left p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+    padding-bottom: 46px;
+}
+.banner-left a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+.banner-right img {
+    padding-bottom: 96px;
+}
+/*============= Clients css =============*/
+#clients {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+}
+.head {
+    padding-bottom: 16px;
+}
+.head h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    padding: 0 45px;
+}
+.head p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+}
+.service-item {
+    padding: 25px 0;
+}
+.service-item img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 60px;
+}
+/*============= Community css =============*/
+#community {
+    background-color: #FFFFFF;
+    padding: 40px 0;
+}
+.group-item {
+    border: 1px solid rgba(171, 190, 209, 0.205);
+    padding: 24px 16px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(171, 190, 209, 0.205);
+}
+.group-item h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4D4D4D;
+    padding: 0 75px;
+    padding-bottom: 8px;
+    padding-top: 16px;
+    text-align: center;
+}
+.group-item p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    padding: 0 65px;
+    text-align: center;
+}
+.group-item .icon {
+    text-align: center;
+}
+/*============= Feature css =============*/
+#feature {
+    background-color: #FFFFFF;
+    padding: 83px 0;
+}
+.feature-right h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    padding-bottom: 16px;
+    padding-right: 55px;
+}
+.feature-right p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    padding-bottom: 32px;
+    padding-right: 50px;
+}
+.feature-right a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+/*============= Help css =============*/
+/*#help {
+    background-color: #F5F7FA;
+    padding: 84px 0;
+}
+.help-left h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    padding-right: 250px;
+    padding-bottom: 8px;
+}
+.help-left span {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4CAF4F;
+}
+.help-left p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #18191F;
+}
+.help-right {
+    display: flex;
+    gap: 16px;
+}
+.help-right h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+    color: #4D4D4D;
+    margin-bottom: 0px;
+}
+.help-right p {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px; 
+   color: #717171;
+   margin-bottom: 0px;
+}*/
+/*============= Design css =============*/
+/*#design {
+    background-color: #FFFFFF;
+    padding: 63px 0;
+}
+.design-right h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 44px;
+    color: #4D4D4D;
+    padding-bottom: 16px;
+    padding-right: 140px;
+}
+.design-right p {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #717171;
+    padding-bottom: 32px;
+    padding-right: 142px;
+}
+.design-right a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #4CAF4F;
+    padding: 14px 32px;
+    border-radius: 4px;
+}*/
+/*============= Customar css =============*/
+/*#customar {
+    background-color: #F5F7FA;
+    padding: 33px 0;
+}
+.tasla-left img {
+    border-radius: 8px;
+}
+.tasla-right p {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 500;
+   line-height: 24px; 
+   color: #717171;
+   padding-right: 115px;
+}
+.tasla-right h2 {
+   font-family: "Inter", sans-serif;
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 28px;
+   color: #4CAF4F;
+   padding-bottom: 8px;
+}
+.tasla-right span {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 24px;
+   color: #89939E;
+}
+.tasla-right .icon {
+    display: flex;
+    gap: 41px;
+}
+.tasla-right .icon path:hover {
+    fill: #5417D7;
+}
+.tasla-right h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4CAF4F;
+    padding: 8px;
+}
+.tasla-right h3 i {
+    margin-left: 8px;
+}*/
+/*============= Portfolio css =============*/
+/*#portfolio {
+    background-color: #FFFFFF;
+    padding-top: 48px;
+    padding-bottom: 175px;
+}
+.port-item img {
+    border-radius: 8px;
+}
+.port-overlay {
+    width: 85%;
+    background-color: #F5F7FA;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 16px 0;
+    border-radius: 8px;
+    box-shadow: 0px 8px 16px rgba(171, 190, 209, 0.404);
+}
+.port-overlay h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #717171;
+    padding: 0 36px;
+    padding-bottom: 16px;
+}
+.port-overlay a {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #4CAF4F;
+}
+.port-overlay a i {
+    margin-left: 8px;
+}*/
+/*============= Footer css =============*/
+/*#footer-head {
+    background-color: #F5F7FA;
+    padding: 32px;
+}
+.footer-head h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+    color: #263238;
+    padding-bottom: 46px;
+}
+.footer-head a {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    background-color: #4CAF4F;
+    color: #FFFFFF;
+    padding: 14px 32px;
+    border-radius: 4px;
+}
+#footer-down {
+    background-color: #263238;
+    padding: 74px 0;
+}
+.footer-item h4 {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px; 
+   color: #F5F7FA;
+   padding-top: 40px;
+   padding-bottom: 8px;
+}
+.footer-item h5 {
+   font-family: "Inter", sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px; 
+   color: #F5F7FA;
+   padding-bottom: 40px;
+}
+.social i {
+    width: 32px;
+    height: 32px;
+    background-color: #FFFFFF;
+    color: #263238;
+    border-radius: 50%;
+    line-height: 32px;
+    margin-right: 16px;
+}
+.footer-item2 h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.footer-menu a {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #F5F7FA;
+}
+.footer-menu input  {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #000;
+    padding: 9px 10px;
+    padding-right: 57px;
+    cursor: pointer;
+}
+.footer-menu input::placeholder{
+    color: #000;
+}
+.arrow i {
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    line-height: 18px;
+    right: 73px;
+    top: 12px;
+}*/
