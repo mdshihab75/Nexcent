@@ -184,7 +184,7 @@ ul,ol {
     border-radius: 4px;
 }
 /*============= Help css =============*/
-/*#help {
+#help {
     background-color: #F5F7FA;
     padding: 84px 0;
 }
@@ -230,9 +230,9 @@ ul,ol {
    line-height: 24px; 
    color: #717171;
    margin-bottom: 0px;
-}*/
+}
 /*============= Design css =============*/
-/*#design {
+#design {
     background-color: #FFFFFF;
     padding: 63px 0;
 }
@@ -263,9 +263,9 @@ ul,ol {
     background-color: #4CAF4F;
     padding: 14px 32px;
     border-radius: 4px;
-}*/
+}
 /*============= Customar css =============*/
-/*#customar {
+#customar {
     background-color: #F5F7FA;
     padding: 33px 0;
 }
@@ -312,9 +312,9 @@ ul,ol {
 }
 .tasla-right h3 i {
     margin-left: 8px;
-}*/
+}
 /*============= Portfolio css =============*/
-/*#portfolio {
+#portfolio {
     background-color: #FFFFFF;
     padding-top: 48px;
     padding-bottom: 175px;
@@ -350,9 +350,9 @@ ul,ol {
 }
 .port-overlay a i {
     margin-left: 8px;
-}*/
+}
 /*============= Footer css =============*/
-/*#footer-head {
+#footer-head {
     background-color: #F5F7FA;
     padding: 32px;
 }
@@ -446,4 +446,4 @@ ul,ol {
     line-height: 18px;
     right: 73px;
     top: 12px;
-}*/
+}
